@@ -1,0 +1,29 @@
+.item{
+  max-height:120px;
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.info{
+  width: 70%;
+  padding: 0 5px 0 5px;
+}
+.info .amount{
+  float: right;
+}
+.buttoncon button{
+  border-radius: 0;
+  border: 0;
+  font-size: 20px;
+  margin-left: 2px;
+  background-color: transparent;
+  color: tomato;
+}
+.buttoncon button:hover{
+  color:white;
+  background-color: tomato;
+}
